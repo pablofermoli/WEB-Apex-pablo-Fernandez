@@ -21,7 +21,7 @@
   --white-dim: rgba(255,255,255,0.65);
   --white-faint: rgba(255,255,255,0.12);
 
-  --font-display: 'Barlow Condensed', sans-serif;
+  --font-display: 'Orbitron', sans-serif;
   --font-body: 'Barlow', sans-serif;
 
   --nav-h: 68px;
@@ -52,9 +52,9 @@ ul { list-style: none; }
 
 .eyebrow {
   font-family: var(--font-display);
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--white-dim);
   margin-bottom: 16px;
@@ -63,11 +63,11 @@ ul { list-style: none; }
 
 .section-title {
   font-family: var(--font-display);
-  font-size: clamp(40px, 5vw, 68px);
+  font-size: clamp(28px, 3.5vw, 52px);
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 0.92;
-  letter-spacing: -0.01em;
+  line-height: 1.05;
+  letter-spacing: 0.04em;
   color: var(--black);
 }
 .section-title.white { color: var(--white); }
@@ -86,9 +86,9 @@ ul { list-style: none; }
   align-items: center;
   gap: 10px;
   font-family: var(--font-display);
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 14px 28px;
   border: 2px solid transparent;
@@ -201,16 +201,16 @@ ul { list-style: none; }
 }
 .logo-apex {
   font-family: var(--font-display);
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 900;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.08em;
   color: var(--white);
 }
 .logo-sub {
   font-family: var(--font-display);
-  font-size: 9px;
+  font-size: 7px;
   font-weight: 500;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.18em;
   color: var(--lime);
   text-transform: uppercase;
 }
@@ -222,9 +222,9 @@ ul { list-style: none; }
 }
 .nav-links a {
   font-family: var(--font-display);
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--white-dim);
   position: relative;
@@ -280,9 +280,9 @@ ul { list-style: none; }
 }
 .mobile-link {
   font-family: var(--font-display);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--white);
   transition: color 0.2s ease;
@@ -346,11 +346,11 @@ ul { list-style: none; }
 
 .hero-title {
   font-family: var(--font-display);
-  font-size: clamp(52px, 7vw, 96px);
+  font-size: clamp(32px, 5vw, 72px);
   font-weight: 900;
-  line-height: 0.88;
+  line-height: 1.08;
   text-transform: uppercase;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.04em;
   color: var(--white);
   margin-bottom: 24px;
   animation: fadeUp 0.8s 0.2s both;
@@ -458,7 +458,7 @@ ul { list-style: none; }
 
 .pilar-num {
   font-family: var(--font-display);
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 900;
   color: var(--lime-dim);
   line-height: 1;
@@ -468,9 +468,9 @@ ul { list-style: none; }
 
 .pilar-body h3 {
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 800;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--black);
   margin-bottom: 8px;
@@ -653,7 +653,7 @@ ul { list-style: none; }
 
 .step-num {
   font-family: var(--font-display);
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 900;
   color: var(--lime);
   line-height: 1;
@@ -663,10 +663,10 @@ ul { list-style: none; }
 
 .step-body h4 {
   font-family: var(--font-display);
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   color: var(--white);
   margin: 10px 0 8px;
 }
@@ -714,10 +714,11 @@ ul { list-style: none; }
 
 .cta-title {
   font-family: var(--font-display);
-  font-size: clamp(36px, 4.5vw, 60px);
+  font-size: clamp(24px, 3vw, 44px);
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 0.92;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
   color: var(--black);
 }
 
